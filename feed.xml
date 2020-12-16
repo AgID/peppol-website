@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://peppol.agid.gov.it/feed.xml" rel="self" type="application/atom+xml" /><link href="https://peppol.agid.gov.it/" rel="alternate" type="text/html" /><updated>2020-12-16T11:14:39+00:00</updated><id>https://peppol.agid.gov.it/feed.xml</id><title type="html">PEPPOL</title><entry xml:lang="en"><title type="html">PEPPOL BIS Billing 3.0 fall release corrigendum</title><link href="https://peppol.agid.gov.it/en/news/peppol-bis-billing-3-0-fall-release-corrigendum/" rel="alternate" type="text/html" title="PEPPOL BIS Billing 3.0 fall release corrigendum" /><published>2020-11-16T00:00:00+00:00</published><updated>2020-11-16T00:00:00+00:00</updated><id>https://peppol.agid.gov.it/en/news/peppol-bis-billing-3-0-fall-release-corrigendum</id><content type="html" xml:base="https://peppol.agid.gov.it/en/news/peppol-bis-billing-3-0-fall-release-corrigendum/">&lt;p&gt;On November 12, 2020, the OpenPeppol consortium published a corrigendum to the autumn release (Post Award BIS Fall Release).&lt;/p&gt;
+
+&lt;p&gt;The Corrigendum was implemented by AGID as Peppol Authority with reference to the technical specifications used in the Italian domain and is available &lt;a href=&quot;https://peppol-docs.agid.gov.it/&quot;&gt;here&lt;/a&gt;, to supplement what was already published on November 6, 2020.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;Please note that adaptation to the new specifications is mandatory starting today November 16, 2020.&lt;/p&gt;
+
+&lt;p&gt;The corrigendum is detailed in the “Release Notes” section and in particular is relevant to:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;DDT: 3.1.0.4 (EN) Update to specification &lt;a href=&quot;https://docs.peppol.eu/poacc/upgrade-3/release-notes/&quot;&gt;PEPPOL BIS 3.0.6 - hotfix&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Syntax changes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Fixed cardinality of cac:DespatchLine/cac:OrderLineReference/cac:OrderLine to 0..1 (formerly 1..1), now in line with BIS (Documentation).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Changes to code lists and validation tools:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Removed the PEPPOL-T16-R002 rule which generated a warning in the absence of the cac:OrderReference/cbc:ID&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The changes have an impact on the controls and logic implemented by the validation tool, which can be downloaded at the abovementioned &lt;a href=&quot;https://peppol-docs.agid.gov.it/&quot;&gt;link&lt;/a&gt;, therefore it is recommended to download the updated version.&lt;/p&gt;</content><author><name></name></author><category term="en" /><category term="news" /><summary type="html">On November 12, 2020, the OpenPeppol consortium published a corrigendum to the autumn release (Post Award BIS Fall Release). The Corrigendum was implemented by AGID as Peppol Authority with reference to the technical specifications used in the Italian domain and is available here, to supplement what was already published on November 6, 2020.</summary></entry><entry xml:lang="it"><title type="html">PEPPOL BIS Billing 3.0 fall release corrigendum</title><link href="https://peppol.agid.gov.it/it/news/peppol-bis-billing-3-0-fall-release-corrigendum/" rel="alternate" type="text/html" title="PEPPOL BIS Billing 3.0 fall release corrigendum" /><published>2020-11-16T00:00:00+00:00</published><updated>2020-11-16T00:00:00+00:00</updated><id>https://peppol.agid.gov.it/it/news/peppol-bis-billing-3-0-fall-release-corrigendum</id><content type="html" xml:base="https://peppol.agid.gov.it/it/news/peppol-bis-billing-3-0-fall-release-corrigendum/">&lt;p&gt;Il 12 novembre 2020 il consorzio OpenPeppol ha pubblicato un corrigendum alla release autunnale (Post Award BIS Fall Release).&lt;/p&gt;
+
+&lt;p&gt;Il Corrigendum è stato recepito dalla Peppol Authority Agid per quanto riguarda le specifiche tecniche utilizzate nel dominio italiano ed è disponibile &lt;a href=&quot;https://peppol-docs.agid.gov.it/&quot;&gt;qui&lt;/a&gt;, ad integrazione di quanto già pubblicato il 6/11/2020.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;Si ricorda che l’adeguamento alle nuove specifiche è obbligatorio a partire da oggi 16 novembre 2020.&lt;/p&gt;
+
+&lt;p&gt;Il corrigendum è dettagliato nella sezione “Note di rilascio” ed in particolare riguarda:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;DDT: 3.1.0.4(IT) Aggiornamento alle specifiche &lt;a href=&quot;https://docs.peppol.eu/poacc/upgrade-3/release-notes/&quot;&gt;PEPPOL BIS 3.0.6 - hotfix&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Cambiamenti alla sintassi:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Corretta la cardinalità del cac:DespatchLine/cac:OrderLineReference/cac:OrderLine a 0..1 (prima 1..1), ora in linea con la BIS (Documentazione).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Cambiamenti alle code lists e ai tool di validazione:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Rimossa la regola PEPPOL-T16-R002 che generava un warning in assenza del cac:OrderReference/cbc:ID&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Le modifiche impattano sui controlli e sulle logiche implementate dal tool di validazione, scaricabile al &lt;a href=&quot;https://peppol-docs.agid.gov.it/&quot;&gt;link&lt;/a&gt; sopracitato, pertanto si raccomanda di scaricare la versione aggiornata.&lt;/p&gt;</content><author><name></name></author><category term="it" /><category term="news" /><summary type="html">Il 12 novembre 2020 il consorzio OpenPeppol ha pubblicato un corrigendum alla release autunnale (Post Award BIS Fall Release). Il Corrigendum è stato recepito dalla Peppol Authority Agid per quanto riguarda le specifiche tecniche utilizzate nel dominio italiano ed è disponibile qui, ad integrazione di quanto già pubblicato il 6/11/2020.</summary></entry><entry xml:lang="en"><title type="html">Fall Release 2020 PEPPOL Post-Award BIS</title><link href="https://peppol.agid.gov.it/en/news/fall-release-2020-peppol-post-award-bis/" rel="alternate" type="text/html" title="Fall Release 2020 PEPPOL Post-Award BIS" /><published>2020-11-06T00:00:00+00:00</published><updated>2020-11-06T00:00:00+00:00</updated><id>https://peppol.agid.gov.it/en/news/fall-release-2020-peppol-post-award-bis</id><content type="html" xml:base="https://peppol.agid.gov.it/en/news/fall-release-2020-peppol-post-award-bis/">&lt;p&gt;The OpenPEPPOL consortium has published the Post Award BIS Fall Release of the technical documentation covering all PEPPOL profiles.&lt;/p&gt;
+
+&lt;p&gt;This release has been acknowledged by AGID as PEPPOL Authority with reference to the technical specifications used in the Italian domain and, &lt;strong&gt;starting from today November 6, 2020&lt;/strong&gt;, they are available for consultation at: &lt;a href=&quot;https://peppol-docs.agid.gov.it/&quot;&gt;https://peppol-docs.agid.gov.it/&lt;/a&gt;.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The adaptation&lt;/strong&gt; to the new specifications &lt;strong&gt;is mandatory starting from November 16, 2020&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;The changes summarized below are also reported in the “Release Notes” section at &lt;a href=&quot;https://peppol-docs.agid.gov.it/&quot;&gt;this link&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Changes to the specification (Documentation)&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;For Order only, fixed a typo in the documentation about the use of the charge indicator “false vs true” in the table in paragraph “6.9. Calculation of totals (AnticipatedMonetaryTotals)”, where the reference to the indicator was inverted.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Syntax changes&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;For Order only, added a new optional Business Term &lt;em&gt;at header level&lt;/em&gt;: “Shipping label” (tir01-p036);&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;For Order only, added a new optional Business Term &lt;em&gt;at line level&lt;/em&gt;: “Delivery location ID” (tir01-p037).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Changes to code lists and validation tools (for Simple Ordering, Complete Ordering and Transport Document)&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;PEPPOL-COMMON-R040 rule: “GLN must have a valid format according to GS1 rules”. Severity changed from “warning” to “fatal”. (the rule was introduced in the fall release of 2019 with severity “warning” to avoid interruptions but with the intention of changing it to “fatal” after 6-12 months);&lt;/li&gt;
+  &lt;li&gt;EAS coding: code 0209 added, code 9958 removed. PEPPOL rule updated accordingly;&lt;/li&gt;
+  &lt;li&gt;ICD coding: added codes 0205, 0206, 0206, 0207, 0208, 0209;&lt;/li&gt;
+  &lt;li&gt;Currency code encoding (ISO 4217): eliminated duplicate codes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Beware:&lt;/strong&gt; the changes affect the controls and logic implemented by the validation tool, which can be downloaded at &lt;a href=&quot;https://peppol-docs.agid.gov.it/&quot;&gt;this link&lt;/a&gt;, therefore it is recommended to download the version updated.&lt;/p&gt;</content><author><name></name></author><category term="en" /><category term="news" /><summary type="html">The OpenPEPPOL consortium has published the Post Award BIS Fall Release of the technical documentation covering all PEPPOL profiles. This release has been acknowledged by AGID as PEPPOL Authority with reference to the technical specifications used in the Italian domain and, starting from today November 6, 2020, they are available for consultation at: https://peppol-docs.agid.gov.it/.</summary></entry><entry xml:lang="it"><title type="html">Fall Release 2020 PEPPOL Post-Award BIS</title><link href="https://peppol.agid.gov.it/it/news/fall-release-2020-peppol-post-award-bis/" rel="alternate" type="text/html" title="Fall Release 2020 PEPPOL Post-Award BIS" /><published>2020-11-06T00:00:00+00:00</published><updated>2020-11-06T00:00:00+00:00</updated><id>https://peppol.agid.gov.it/it/news/fall-release-2020-peppol-post-award-bis</id><content type="html" xml:base="https://peppol.agid.gov.it/it/news/fall-release-2020-peppol-post-award-bis/">&lt;p&gt;Il consorzio OpenPEPPOL ha pubblicato la release autunnale (Post Award BIS Fall Release) della documentazione tecnica riguardante tutti i profili PEPPOL.&lt;/p&gt;
+
+&lt;p&gt;Tale release è stata recepita dalla PEPPOL Authority Agid per quanto riguarda le specifiche tecniche utilizzate nel dominio italiano e, &lt;strong&gt;a partire da oggi 6 Novembre 2020,&lt;/strong&gt; sono disponibili in consultazione all’indirizzo: &lt;a href=&quot;https://peppol-docs.agid.gov.it/&quot;&gt;https://peppol-docs.agid.gov.it/&lt;/a&gt;.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;L’adeguamento&lt;/strong&gt; alle nuove specifiche &lt;strong&gt;è obbligatorio a partire dal&lt;/strong&gt; &lt;strong&gt;16 Novembre 2020&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Le modifiche riepilogate di seguito sono riportate anche nella sezione “Note di rilascio” a &lt;a href=&quot;https://peppol-docs.agid.gov.it/&quot;&gt;questo link&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Cambiamenti alla specifica (Documentazione)&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Per l’Ordinazione semplice, corretto il refuso presente nella documentazione circa l’uso del charge indicator “false vs true” nella tabella del paragrafo “6.9. Calcolo dei totali (AnticipatedMonetaryTotals)”, dove il riferimento all’indicatore era invertito.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Cambiamenti alla sintassi&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Per l’Ordinazione semplice, aggiunto un nuovo Business Term opzionale &lt;em&gt;a livello di testata&lt;/em&gt;: “Shipping label” (tir01-p036);&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Per l’Ordinazione semplice, aggiunto un nuovo Business Term opzionale &lt;em&gt;a livello di riga&lt;/em&gt;: “Delivery location ID” (tir01-p037).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Cambiamenti alle code lists e ai tool di validazione (per Ordinazione semplice, Ordinazione Completa e Documento di Trasporto)&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Regola PEPPOL-COMMON-R040: “GLN deve avere un formato valido secondo le regole GS1”. Modificata la gravità da “warning” a “fatal”. (la regola è stata introdotta nella fall release del 2019 con gravità “warning” per evitare interruzioni ma con l’intenzione di modificarla a “fatal” dopo 6-12 mesi);&lt;/li&gt;
+  &lt;li&gt;Codifica EAS: aggiunto codice 0209, rimosso codice 9958. Regola PEPPOL aggiornata conseguentemente;&lt;/li&gt;
+  &lt;li&gt;Codifica ICD: aggiunti i codici 0205, 0206, 0206, 0207, 0208, 0209;&lt;/li&gt;
+  &lt;li&gt;Codifica Currency code (ISO 4217): eliminati i codici duplicati.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Attenzione:&lt;/strong&gt; le modifiche impattano sui controlli e sulle logiche implementate dal tool di validazione, scaricabile a &lt;a href=&quot;https://peppol-docs.agid.gov.it/&quot;&gt;questo link&lt;/a&gt;, pertanto si raccomanda di scaricare la versione aggiornata.&lt;/p&gt;</content><author><name></name></author><category term="it" /><category term="news" /><summary type="html">Il consorzio OpenPEPPOL ha pubblicato la release autunnale (Post Award BIS Fall Release) della documentazione tecnica riguardante tutti i profili PEPPOL. Tale release è stata recepita dalla PEPPOL Authority Agid per quanto riguarda le specifiche tecniche utilizzate nel dominio italiano e, a partire da oggi 6 Novembre 2020, sono disponibili in consultazione all’indirizzo: https://peppol-docs.agid.gov.it/.</summary></entry><entry xml:lang="en"><title type="html">Unavailability dates for the PEPPOL technical support 2020</title><link href="https://peppol.agid.gov.it/en/news/unavailability-dates-for-the-peppol-technical-support-2020/" rel="alternate" type="text/html" title="Unavailability dates for the PEPPOL technical support 2020" /><published>2020-07-20T00:00:00+00:00</published><updated>2020-07-20T00:00:00+00:00</updated><id>https://peppol.agid.gov.it/en/news/unavailability-dates-for-the-peppol-technical-support-2020</id><content type="html" xml:base="https://peppol.agid.gov.it/en/news/unavailability-dates-for-the-peppol-technical-support-2020/">&lt;p&gt;Following are the dates for 2020 Q3 and Q4 in which the technical support for
+users of the PEPPOL network will not be available.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;August 14, Friday&lt;/li&gt;
+  &lt;li&gt;December 7, Monday&lt;/li&gt;
+  &lt;li&gt;December 24, Thursday&lt;/li&gt;
+  &lt;li&gt;December 31, Thursday&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="en" /><category term="news" /><summary type="html">Following are the dates for 2020 Q3 and Q4 in which the technical support for users of the PEPPOL network will not be available. August 14, Friday December 7, Monday December 24, Thursday December 31, Thursday</summary></entry><entry xml:lang="it"><title type="html">Calendario chiusure assistenza tecnica PEPPOL 2020</title><link href="https://peppol.agid.gov.it/it/news/calendario-chiusure-assistenza-peppol-2020/" rel="alternate" type="text/html" title="Calendario chiusure assistenza tecnica PEPPOL 2020" /><published>2020-07-20T00:00:00+00:00</published><updated>2020-07-20T00:00:00+00:00</updated><id>https://peppol.agid.gov.it/it/news/calendario-chiusure-assistenza-peppol-2020</id><content type="html" xml:base="https://peppol.agid.gov.it/it/news/calendario-chiusure-assistenza-peppol-2020/">&lt;p&gt;Si comunica il calendario delle giornate del secondo semestre dell’anno 2020 in
+cui non sarà disponibile il servizio di assistenza tecnica per gli utenti della
+rete PEPPOL.&lt;/p&gt;
+
+&lt;p&gt;Di seguito le date:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;venerdì 14/08&lt;/li&gt;
+  &lt;li&gt;lunedì 7/12&lt;/li&gt;
+  &lt;li&gt;giovedì 24/12&lt;/li&gt;
+  &lt;li&gt;giovedì 31/12&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="it" /><category term="news" /><summary type="html">Si comunica il calendario delle giornate del secondo semestre dell’anno 2020 in cui non sarà disponibile il servizio di assistenza tecnica per gli utenti della rete PEPPOL. Di seguito le date: venerdì 14/08 lunedì 7/12 giovedì 24/12 giovedì 31/12</summary></entry><entry xml:lang="en"><title type="html">Update of the PEPPOL BIS 3.0 Post Award</title><link href="https://peppol.agid.gov.it/en/news/update-peppol-bis-3-0-post-award/" rel="alternate" type="text/html" title="Update of the PEPPOL BIS 3.0 Post Award" /><published>2020-05-08T00:00:00+00:00</published><updated>2020-05-08T00:00:00+00:00</updated><id>https://peppol.agid.gov.it/en/news/update-peppol-bis-3-0-post-award</id><content type="html" xml:base="https://peppol.agid.gov.it/en/news/update-peppol-bis-3-0-post-award/">&lt;p&gt;OpenPEPPOL has notified the release of new PEPPOL BIS 3.0 updates to the Post-Award Community (PoAC). We kindly ask you to review it by consulting the &lt;a href=&quot;https://docs.peppol.eu/poacc/upgrade-3/release-notes/&quot;&gt;Release notes&lt;/a&gt; for version 3.0.4.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;Amongst the different types of post-award documents, the changes introduced also concern electronic order formats. However, the changes, which are corrective and adaptive in nature, following a preliminary analysis, do not impact on the specifications for interoperability with the NSO system.&lt;/p&gt;
+
+&lt;p&gt;The technical specifications updated with this Spring Release will come into force on May 15, 2020.&lt;/p&gt;</content><author><name></name></author><category term="en" /><category term="news" /><summary type="html">OpenPEPPOL has notified the release of new PEPPOL BIS 3.0 updates to the Post-Award Community (PoAC). We kindly ask you to review it by consulting the Release notes for version 3.0.4.</summary></entry><entry xml:lang="it"><title type="html">Aggiornamento del Post Award PEPPOL BIS 3.0</title><link href="https://peppol.agid.gov.it/it/news/aggiornamento-post-award-peppol-bis-3-0/" rel="alternate" type="text/html" title="Aggiornamento del Post Award PEPPOL BIS 3.0" /><published>2020-05-08T00:00:00+00:00</published><updated>2020-05-08T00:00:00+00:00</updated><id>https://peppol.agid.gov.it/it/news/aggiornamento-post-award-peppol-bis-3-0</id><content type="html" xml:base="https://peppol.agid.gov.it/it/news/aggiornamento-post-award-peppol-bis-3-0/">&lt;p&gt;OpenPEPPOL ha notificato il rilascio dei nuovi aggiornamenti dei PEPPOL BIS 3.0 alla Comunità di Post-Award (PoAC).&lt;!--more--&gt; Vi invitiamo a prenderne visione consultando le &lt;a href=&quot;https://docs.peppol.eu/poacc/upgrade-3/release-notes/&quot;&gt;Release notes&lt;/a&gt; per la versione 3.0.4.&lt;/p&gt;
+
+&lt;p&gt;Tra le diverse tipologie di documenti di post-award, i cambiamenti introdotti riguardano anche i formati di ordine elettronico. Tuttavia, le modifiche, che sono di natura correttiva e adeguativa, a valle di un’analisi preliminare, non impattano sulle specifiche di interoperabilità con il sistema NSO.&lt;/p&gt;
+
+&lt;p&gt;Le specifiche tecniche aggiornate con questa Spring Release entreranno in vigore a partire dal 15 maggio 2020.&lt;/p&gt;</content><author><name></name></author><category term="it" /><category term="news" /><summary type="html">OpenPEPPOL ha notificato il rilascio dei nuovi aggiornamenti dei PEPPOL BIS 3.0 alla Comunità di Post-Award (PoAC).</summary></entry><entry xml:lang="en"><title type="html">Consultation on PEPPOL BIS Despatch Advice 3.0 (DDT)</title><link href="https://peppol.agid.gov.it/en/consultations/ddt-consultation/" rel="alternate" type="text/html" title="Consultation on PEPPOL BIS Despatch Advice 3.0 (DDT)" /><published>2020-04-20T00:00:00+00:00</published><updated>2020-04-20T00:00:00+00:00</updated><id>https://peppol.agid.gov.it/en/consultations/ddt-consultation</id><content type="html" xml:base="https://peppol.agid.gov.it/en/consultations/ddt-consultation/">&lt;p&gt;The Italian PEPPOL Authority launched a consultation process on the PEPPOL BIS Despatch Advice 3.0 (DDT), from 16 to 27 March 2020, in order to establish the national PEPPOL standard for the Despatch Advice.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;The comments received following the public consultation are listed below. All comments have been resolved and the technical specifications have been updated accordingly, as specified in their release notes. No comments were received regarding the business rules for DTT 3.0.&lt;/p&gt;
+
+&lt;p&gt;Please note that the aforementioned consultation and approval process does NOT currently have any impact on the functioning of the Nodo di Smistamento gli Ordini di Acquisto (NSO), which will continue to manage only the PEPPOL BIS 3 order formats relating to Orders, as stated in the technical rules of the MEF.&lt;/p&gt;
+
+&lt;p&gt;From now on, the Italian PEPPOL BIS Despatch Advice 3.0 profile can be used for software developments.&lt;/p&gt;
+
+&lt;p&gt;The Authority’s test environment can be used to perform the tests relating to the profile in question, after contacting &lt;a href=&quot;mailto: assistancePEPPOL@agid.gov.it&quot;&gt;assistancePEPPOL@agid.gov.it&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The deadline for the migration of the DDT is set for 30 September 2020, by which date the Service Providers will have to stop using the PEPPOL BIS 30A profile.&lt;/p&gt;
+
+&lt;p&gt;Attachments:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/attachments/Commenti_ConsultazionePubblica_Marzo_Documentazione_PEPPOL_BIS_DDT_3.0_IT.pdf&quot;&gt;Commenti_ConsultazionePubblica_Marzo_Documentazione_PEPPOL_BIS_DDT_3.0_IT.pdf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/attachments/Commenti_ConsultazionePubblica_Marzo_Sintassi_PEPPOL_BIS_DDT_3.0_IT.pdf&quot;&gt;Commenti_ConsultazionePubblica_Marzo_Sintassi_PEPPOL_BIS_DDT_3.0_IT.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="en" /><category term="consultations" /><summary type="html">The Italian PEPPOL Authority launched a consultation process on the PEPPOL BIS Despatch Advice 3.0 (DDT), from 16 to 27 March 2020, in order to establish the national PEPPOL standard for the Despatch Advice.</summary></entry><entry xml:lang="en"><title type="html">Publication of the consultation results on PEPPOL BIS Despatch Advice 3.0 (DDT)</title><link href="https://peppol.agid.gov.it/en/news/result-ddt-consultation/" rel="alternate" type="text/html" title="Publication of the consultation results on PEPPOL BIS Despatch Advice 3.0 (DDT)" /><published>2020-04-20T00:00:00+00:00</published><updated>2020-04-20T00:00:00+00:00</updated><id>https://peppol.agid.gov.it/en/news/result-ddt-consultation</id><content type="html" xml:base="https://peppol.agid.gov.it/en/news/result-ddt-consultation/">&lt;p&gt;The Italian PEPPOL Authority launched a consultation process on the PEPPOL BIS Despatch Advice 3.0 (DDT), from 16 to 27 March 2020, in order to establish the national PEPPOL standard for the Despatch Advice.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;The comments received following the public consultation are listed below. All comments have been resolved and the technical specifications have been updated accordingly, as specified in their release notes. No comments were received regarding the business rules for DTT 3.0.&lt;/p&gt;
+
+&lt;p&gt;Please note that the aforementioned consultation and approval process does NOT currently have any impact on the functioning of the Nodo di Smistamento gli Ordini di Acquisto (NSO), which will continue to manage only the PEPPOL BIS 3 order formats relating to Orders, as stated in the technical rules of the MEF.&lt;/p&gt;
+
+&lt;p&gt;From now on, the Italian PEPPOL BIS Despatch Advice 3.0 profile can be used for software developments.&lt;/p&gt;
+
+&lt;p&gt;The Authority’s test environment can be used to perform the tests relating to the profile in question, after contacting &lt;a href=&quot;mailto: assistancePEPPOL@agid.gov.it&quot;&gt;assistancePEPPOL@agid.gov.it&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The deadline for the migration of the DDT is set for 30 September 2020, by which date the Service Providers will have to stop using the PEPPOL BIS 30A profile.&lt;/p&gt;
+
+&lt;p&gt;Attachments:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/attachments/Commenti_ConsultazionePubblica_Marzo_Documentazione_PEPPOL_BIS_DDT_3.0_IT.pdf&quot;&gt;Commenti_ConsultazionePubblica_Marzo_Documentazione_PEPPOL_BIS_DDT_3.0_IT.pdf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/attachments/Commenti_ConsultazionePubblica_Marzo_Sintassi_PEPPOL_BIS_DDT_3.0_IT.pdf&quot;&gt;Commenti_ConsultazionePubblica_Marzo_Sintassi_PEPPOL_BIS_DDT_3.0_IT.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="en" /><category term="news" /><summary type="html">The Italian PEPPOL Authority launched a consultation process on the PEPPOL BIS Despatch Advice 3.0 (DDT), from 16 to 27 March 2020, in order to establish the national PEPPOL standard for the Despatch Advice.</summary></entry></feed>
